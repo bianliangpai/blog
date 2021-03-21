@@ -22,6 +22,10 @@ Stackoverflow 上这个问题下面的第二个回答，答主提到 "Qt's MVC o
 在思考[GUI Architecture 历史](#GUI Architecture 演变思考)时，我除了对已知的 puremvc 进行了进一步的了解，还尝试用 "best mvc framework" 这样的关键词来进一步探索。在这个过程中，我发现那些在前端界耳熟能详的框架们也是类似的套路，如 react, vue 等[[4]](#参考)。这令我颇有恍然大悟之感，可不就是吗，前端后台这一套也是典型的 GUI 应用啊。之前说到 GUI 就是 Qt 的思考模式很有问题。  
 另一个例子[[5]](#参考)是在思考[QT](#进一步理解 QT)时，通过搜索引擎找到的。文中以“用鼠标改变三角形视角”为例，介绍了一个基于 OpenGL 的 MVC 样例程序。由于之前写 3d Viewer 的经历，这个例子让我立马联想到，其实之前的这个 3d Viewer 也算是 GUI 应用程序（也可以有 MVC 的这一套）。但当时竟然丝毫没有意识到这一点，有点感叹。  
 
+## 最原始的 MVC
+
+在分析[opengl样例程序](#重新认识 GUI)时，发现这种 controller 直接从 OS 回调获取用户输入的，才是 mvc 最原本的定义。如[之前](#进一步理解 QT)提到的，Qt 里的那种已经不是最一开始的 mvc 了。
+
 # 参考
 1. [《PureMVC--一款多平台MVC框架》](https://www.jianshu.com/p/47deaced9eb3)  
 2. [《2020-3-8-MVC、MVP、MVVM模式演变简析》](https://cloud.tencent.com/developer/article/1641997)  
