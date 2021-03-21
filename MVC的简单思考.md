@@ -23,8 +23,8 @@ Stackoverflow 上这个问题下面的第二个回答，答主提到 "Qt's MVC o
 另一个例子[[5]](#参考)是在思考[QT](#进一步理解 QT)时，通过搜索引擎找到的。文中以“用鼠标改变三角形视角”为例，介绍了一个基于 OpenGL 的 MVC 样例程序。由于之前写 3d Viewer 的经历，这个例子让我立马联想到，其实之前的这个 3d Viewer 也算是 GUI 应用程序（也可以有 MVC 的这一套）。但当时竟然丝毫没有意识到这一点，有点感叹。  
 
 # 参考
-1. [《PureMVC--一款多平台MVC框架》](#https://www.jianshu.com/p/47deaced9eb3)  
-2. [《2020-3-8-MVC、MVP、MVVM模式演变简析》](#https://cloud.tencent.com/developer/article/1641997)  
-3. [Why Qt is misusing model/view terminology?](#https://stackoverflow.com/questions/5543198/why-qt-is-misusing-model-view-terminology)  
-4. [Top 10 JavaScript MVC Frameworks](#https://www.bbconsult.co.uk/blog/top-10-javascript-mvc-frameworks)  
-5. [OpenGL Windows GUI Application](#http://www.songho.ca/opengl/gl_mvc.html)  
+1. [《PureMVC--一款多平台MVC框架》](https://www.jianshu.com/p/47deaced9eb3)  
+2. [《2020-3-8-MVC、MVP、MVVM模式演变简析》](https://cloud.tencent.com/developer/article/1641997)  
+3. [Why Qt is misusing model/view terminology?](https://stackoverflow.com/questions/5543198/why-qt-is-misusing-model-view-terminology)  
+4. [Top 10 JavaScript MVC Frameworks](https://www.bbconsult.co.uk/blog/top-10-javascript-mvc-frameworks)  
+5. [OpenGL Windows GUI Application](http://www.songho.ca/opengl/gl_mvc.html)  
